@@ -1,5 +1,5 @@
 <a href="/">
     <h1 class="text-2xl md:text-3xl font-bold text-center lg:text-5xl text-gray-700">
-        Welcome to <span class="text-yellow-500">&lt;TipSgame&gt;</span> <span class="text-gray-900"> News</span>
+        Game khó<br>đã có <span class="text-yellow-500">TipSgame</span> <span class="text-gray-900"> lo</span>
     </h1>
 </a>

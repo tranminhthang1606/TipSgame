@@ -15,7 +15,7 @@
                 <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
                     {{ __('Trang chủ') }}
                 </x-nav-link>
-                <x-nav-link href="{{ route('blog') }}" :active="request()->routeIs('blog')">
+                <x-nav-link href="{{ route('blog.index') }}" :active="request()->routeIs('blog.index')">
                     {{ __('Bài viết') }}
                 </x-nav-link>
 
