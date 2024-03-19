@@ -68,6 +68,11 @@ class Post extends Model
             $query->where('slug', Str::slug($category));
         });
     }
+
+    public function likes()
+    {
+        return $this->belongsToMany(User::class, 'post_like')->withTimestamps();
+    }
     protected $casts = [
         'published_at' => 'datetime',
     ];

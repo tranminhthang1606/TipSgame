@@ -33,7 +33,7 @@
                 type="text" placeholder="Bài viết bạn muốn xem ...">
         </div>
         {{-- <x-button wire:click='update'>Search</x-button> --}}
-        <x-button x-on:click="$dispatch('search',{
+        <x-button wire:loading.delay.remove x-on:click="$dispatch('search',{
             search:searchVal
         })">Tìm kiếm</x-button>
     </div>
